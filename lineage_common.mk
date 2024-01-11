@@ -5,7 +5,7 @@
 #
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += device/google/gs201/overlay-calyx
+DEVICE_PACKAGE_OVERLAYS += device/google/gs201/overlay-lineage
 
 # Camera
 PRODUCT_PRODUCT_PROPERTIES += \
