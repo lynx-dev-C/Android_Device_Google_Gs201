@@ -38,6 +38,3 @@ PRODUCT_PACKAGES += \
     FaceEnrollAppOverlay \
     FaceEnrollSettingsOverlay \
     FaceEnrollSystemUI
-
-# Touch
-include hardware/google/pixel/touch/device.mk
