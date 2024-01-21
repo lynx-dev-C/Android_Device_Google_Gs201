@@ -32,9 +32,5 @@ PRODUCT_VENDOR_LINKER_CONFIG_FRAGMENTS += \
 PRODUCT_PACKAGES += \
     GoogleParts
 
-# Face Unlock
-PRODUCT_PACKAGES += \
-    FaceEnrollAndroid \
-    FaceEnrollAppOverlay \
-    FaceEnrollSettingsOverlay \
-    FaceEnrollSystemUI
+# Touch
+include hardware/google/pixel/touch/device.mk
